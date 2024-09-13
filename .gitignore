@@ -163,3 +163,4 @@ cython_debug/
 
 minecraft/world
 minecraft/logs
+minecraft/crash-reports
