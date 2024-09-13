@@ -10,6 +10,10 @@ services:
     image: itzg/minecraft-server:20200320
     tty: true
     stdin_open: true
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
     ports:
       - "25565:25565"
     environment:
