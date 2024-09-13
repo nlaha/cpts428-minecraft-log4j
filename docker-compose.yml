@@ -16,6 +16,8 @@ services:
       EULA: "TRUE"
       TYPE: CUSTOM
       JVM_OPTS: "-Dcom.sun.jndi.ldap.object.trustURLCodebase=true"
+      MAX_MEMORY: 4G
+      MEMORY: 4G
       CUSTOM_SERVER: minecraft_server.jar
 
     volumes:
