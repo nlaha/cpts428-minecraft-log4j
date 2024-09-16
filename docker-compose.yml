@@ -1,5 +1,6 @@
 services:
   ldap:
+    network_mode: host
     build:
       context: .
       dockerfile: Dockerfile
@@ -10,6 +11,7 @@ services:
     image: itzg/minecraft-server:20200320
     tty: true
     stdin_open: true
+    network_mode: host
     ulimits:
       nofile:
         soft: 65536

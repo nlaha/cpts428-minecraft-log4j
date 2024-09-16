@@ -10,4 +10,4 @@ RUN cp target/RogueJndi-1.1.jar /app.jar
 EXPOSE 8080
 EXPOSE 1389
 
-ENTRYPOINT ["java","-jar","/app.jar", "-n", "host.docker.internal", "-c", "echo Exploit Success!"]
+ENTRYPOINT ["java","-jar","/app.jar", "-n", "localhost", "-c", "echo Exploit Success!"]
